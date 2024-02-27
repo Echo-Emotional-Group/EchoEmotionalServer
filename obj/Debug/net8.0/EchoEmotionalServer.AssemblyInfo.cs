@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EchoEmotionalServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d22a18f8d5a7d4e240685d45d12a7a0383dd9af3")]
 [assembly: System.Reflection.AssemblyProductAttribute("EchoEmotionalServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EchoEmotionalServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
