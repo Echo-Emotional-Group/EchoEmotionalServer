@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\Positivo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+      "projectUniqueName": "C:\\Users\\Positivo\\workspace\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
       "projectName": "EchoEmotionalServer",
-      "projectPath": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\obj\\",
+      "projectPath": "C:\\Users\\Positivo\\workspace\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+      "packagesPath": "C:\\Users\\Positivo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Positivo\\workspace\\EchoEmotionalServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Positivo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
