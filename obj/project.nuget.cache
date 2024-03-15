@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oiFIunJhUOjKQPZY5gV3R2eKf3Ld8DfVsWSvKsX6kTFf8zHyFn3PzvLtJ4WNVsZ//i3V0/9LUNrPzJVk5Q127A==",
+  "dgSpecHash": "IOGlnSA0iZkO9ZB+SD6uNFaejBeGCDmXAPn6+Q4KpRf6H7TzMusrxUVijBKMO34+23LXz2oDBkleEH9gV4L8Mg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Positivo\\workspace\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
   "expectedPackageFiles": [
@@ -27,9 +27,13 @@
     "C:\\Users\\Positivo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Positivo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.2\\npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512",
+    "C:\\Users\\Positivo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Positivo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Positivo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Positivo\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
