@@ -1,11 +1,14 @@
+using Contexts;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Models;
 
-namespace Controllers
+namespace Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Emotion : ControllerBase
+    public class EmocoesController : ControllerBase
     {
+        
     }
 }
