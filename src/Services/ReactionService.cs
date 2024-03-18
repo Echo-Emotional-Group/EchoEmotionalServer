@@ -39,9 +39,9 @@ namespace Services
             return null;
         }
 
-        public async Task<bool> DeleteReaction(int reactionId)
+        public async Task<bool> DeleteReaction(ReactionInputModel deleteReaction)
         {
-            var reaction = await _dbEchoEmotional.Reactions.FindAsync(reactionId);
+            var reaction = await _dbEchoEmotional.Reactions.FirstOrDefaultAsync(e => e.PostId == deleteReaction.PostId && e.ReactionId == deleteReaction.ReactionId);
             
             if (reaction == null)
             {

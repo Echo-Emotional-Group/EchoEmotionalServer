@@ -74,17 +74,17 @@ namespace Controllers
             }
         }
 
-        [HttpDelete("DeleteReaction/{reactionId}")]
-        public async Task<IActionResult> DeleteReaction(int reactionId)
+        [HttpDelete("DeleteReaction")]
+        public async Task<IActionResult> DeleteReaction([FromBody] ReactionInputModel reaction)
         {
-            bool deleted = await _reactionService.DeleteReaction(reactionId);
+            bool deleted = await _reactionService.DeleteReaction(reaction);
 
             if (!deleted)
             {
-                return NotFound($"Reaction with ID {reactionId} not found!");
+                return NotFound($"Reaction with ID {reaction.ReactionId} not found!");
             }
 
-            return Ok($"Reaction with ID {reactionId} deleted successfully!");
+            return Ok($"Reaction with ID {reaction.ReactionId} deleted successfully!");
         }
 
     }
