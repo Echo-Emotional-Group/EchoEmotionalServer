@@ -2450,6 +2450,7 @@
       "Microsoft.EntityFrameworkCore >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.3",
+      "Npgsql >= 8.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.2",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
@@ -2457,24 +2458,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wssantanna\\.nuget\\packages\\": {}
+    "C:\\Users\\jesus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+      "projectUniqueName": "C:\\Users\\jesus\\Documents\\echoemotional\\back\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
       "projectName": "EchoEmotionalServer",
-      "projectPath": "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
-      "packagesPath": "C:\\Users\\wssantanna\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\EchoEmotionalServer\\obj\\",
+      "projectPath": "C:\\Users\\jesus\\Documents\\echoemotional\\back\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+      "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jesus\\Documents\\echoemotional\\back\\EchoEmotionalServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wssantanna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2487,6 +2490,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2506,6 +2514,10 @@
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[8.0.3, )"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[8.0.2, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
@@ -2543,7 +2555,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
