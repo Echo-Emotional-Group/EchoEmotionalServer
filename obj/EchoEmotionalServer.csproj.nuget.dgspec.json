@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj": {}
+    "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj": {
+    "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
         "projectName": "EchoEmotionalServer",
-        "projectPath": "C:\\Projetos\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
-        "packagesPath": "C:\\Users\\wssantanna\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\EchoEmotionalServer\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\EchoEmotionalServer.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO\\Downloads\\EchoEmotionalServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wssantanna\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"
@@ -51,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
